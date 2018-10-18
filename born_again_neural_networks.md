@@ -1,7 +1,7 @@
 # Born Again Neural Networks  
 2017 NIPS workshop  Tommaso Furlanello, Zachary C. Lipton, Michael Tschannen, Laurent Itti, Anima Anandkumar  
   
-URL:http://export.arxiv.org/pdf/1805.04770  
+[Born Again Neural Networks](http://export.arxiv.org/pdf/1805.04770)  
   
 ## どんなもの？  
 これまで，Knowledge Distillation（蒸留）はモデルの軽量化を図るための手段として扱われてきた．
@@ -65,4 +65,5 @@ Dark Knowledgeとは普段あまり重要視されないsoftmax関数から出�
 - student modelを再帰的に蒸留し，これらの過程で得られた全てのstudent modelをアンサンブルすることでteacher modelの精度を遥かに凌ぐstudent modelの
 生成に成功した  
 
-## 
+## 次に読むべき論文は？  
+[A gift from knowledge distillation: Fast optimization, network minimization and transfer learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yim_A_Gift_From_CVPR_2017_paper.pdf)  
